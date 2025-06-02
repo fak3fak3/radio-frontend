@@ -1,0 +1,24 @@
+.archive-page {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    row-gap: 10px;
+    max-height: 100vh;
+}
+
+.archive-page > .filters {
+    display: flex;
+    gap: 10px;
+}
+
+.archive-page > .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    scrollbar-color: black white;
+    scrollbar-width: thin;
+}

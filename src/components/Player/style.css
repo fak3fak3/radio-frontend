@@ -1,0 +1,21 @@
+.player-wrapper {
+    position: absolute;
+    color: white;
+    width: 100%;
+    padding: 20px 20px;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player-play-button {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

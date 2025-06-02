@@ -1,0 +1,15 @@
+:root {
+    --color-border: #000000;
+
+    --color-background: #ffffff;
+    --color-background-hovered: #000000;
+    --color-background-active: #ff6e00;
+    --color-border-gray: #f0f0f0;
+
+    --color-text: #000000;
+    --color-text-hovered: #ffffff;
+    --color-text-active: #ffffff;
+    --color-text-light: #707070;
+
+    --color-active: #ff6e00;
+}

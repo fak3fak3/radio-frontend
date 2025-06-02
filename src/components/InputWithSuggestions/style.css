@@ -1,0 +1,14 @@
+.input-sugg-wrapper {
+    width: 100%;
+    border: 1px solid var(--color-border);
+    box-sizing: border-box;
+}
+
+.input-sugg-wrapper > input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    font-size: 20px;
+    outline: 0;
+}

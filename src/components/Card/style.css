@@ -1,6 +1,6 @@
 .card {
     width: calc(33% - 5px);
-
+    height: fit-content;
     display: flex;
     flex-direction: column;
     aspect-ratio: 3 / 4;

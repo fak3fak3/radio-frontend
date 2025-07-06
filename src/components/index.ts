@@ -1,8 +1,19 @@
 import Nav from "./Nav";
 import Chat from "./Chat";
-import Player from "./Player";
 import InputWithSuggestions from "./InputWithSuggestions";
-import MultiSelect from "./Multiselect";
+import Scene from "./3D";
+import RunningText from "./RunningText";
+import Calendar from "./Calendar";
+import Block from "./MainBlock";
 import Card from "./Card";
 
-export { Nav, Chat, Player, InputWithSuggestions, MultiSelect, Card };
+export {
+    Nav,
+    Chat,
+    InputWithSuggestions,
+    Scene,
+    RunningText,
+    Calendar,
+    Block,
+    Card,
+};

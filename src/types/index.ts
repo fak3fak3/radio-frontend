@@ -1,10 +1,16 @@
 // types/index.ts
-export type Message = {
+type Message = {
     text: string;
     username: string;
     date: Date;
     platform: string;
+    type: MessageType;
+    action: MessageAction;
 };
+
+type MessageType = "chat" | "info";
+
+type MessageAction = "stream_start" | "stream_over";
 
 type MediaType =
     | "audio_self_hosted"
@@ -26,7 +32,7 @@ type Tag = {
     color: string;
 };
 
-export type Media = {
+type Media = {
     id?: number;
     type: MediaType;
     duration: number;
@@ -36,4 +42,14 @@ export type Media = {
     source?: Partial<FileUploadResponse>;
     url?: string;
     tags?: Tag[];
+};
+
+export type {
+    Message,
+    MessageAction,
+    MessageType,
+    MediaType,
+    FileUploadResponse,
+    Tag,
+    Media,
 };

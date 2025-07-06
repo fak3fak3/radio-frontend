@@ -1,21 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Rozha+One&family=Ruluko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
 
 * {
-    font-family: "Ruluko", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
-    user-select: none;
-}
-
-.ruluko-regular {
-    font-family: "Ruluko", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.rozha-one-regular {
-    font-family: "Rozha One", serif;
-    font-weight: 400;
+    font-family: "Mada", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
     font-style: normal;
 }

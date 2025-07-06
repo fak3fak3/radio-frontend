@@ -1,20 +1,14 @@
 import React from "react";
-import "./App.css";
-import "./styles/vars.css";
 import "./styles/fonts.css";
-import { Nav, Chat, KeepAliveOutlet } from "./components";
+import { Nav } from "./components";
 import { Outlet } from "react-router";
-import { useGLTF } from "@react-three/drei";
-import { useUnit } from "effector-react";
-import { setGeometry, setMaterial } from "./store/3d";
 
 function App() {
     return (
-        <div className={"container"}>
-            <Outlet />
-            <div className="nav-side">
-                <Nav />
-                <Chat />
+        <div className="bg-blue-bg h-full">
+            <Nav />
+            <div className="pt-15  overflow-x-hidden">
+                <Outlet />
             </div>
         </div>
     );

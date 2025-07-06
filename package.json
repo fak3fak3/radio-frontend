@@ -22,14 +22,12 @@
         "@types/react-dom": "^19.1.2",
         "@types/three": "^0.176.0",
         "babel-loader": "^10.0.0",
-        "css-loader": "^7.1.2",
         "effector": "^23.3.0",
         "effector-react": "^23.3.0",
         "html-webpack-plugin": "^5.6.3",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "react-router": "^7.5.2",
-        "style-loader": "^4.0.0",
         "three": "^0.176.0",
         "typescript": "^5.8.3",
         "webpack": "^5.99.5",
@@ -37,6 +35,13 @@
         "webpack-dev-server": "^5.2.1"
     },
     "devDependencies": {
-        "copy-webpack-plugin": "^13.0.0"
+        "@tailwindcss/postcss": "^4.1.10",
+        "autoprefixer": "^10.4.21",
+        "copy-webpack-plugin": "^13.0.0",
+        "css-loader": "^7.1.2",
+        "postcss": "^8.5.6",
+        "postcss-loader": "^8.1.1",
+        "style-loader": "^4.0.0",
+        "tailwindcss": "^4.1.10"
     }
 }

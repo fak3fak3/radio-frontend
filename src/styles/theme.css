@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+    --color-blue-bg: #d1e2ec;
+    --color-white: #fefcfd;
+    --color-black: #000;
+
+    --font-modak: "Modak", sans-serif;
+}
+
+@layer utilities {
+    * {
+        scrollbar-width: none;
+    }
+
+    .text-stroke {
+        -webkit-text-stroke: 1px black;
+    }
+    .text-stroke-white {
+        -webkit-text-stroke: 1px white;
+    }
+}

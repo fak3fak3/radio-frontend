@@ -27,8 +27,6 @@ export const loadGLTF = (url: string): Promise<GLTFResult> => {
 
                         const mat = mesh.material;
 
-                        console.log("mat", mat);
-
                         if (Array.isArray(mat)) {
                             mat.forEach((m) => {
                                 if (m.name) materials[m.name] = m;
@@ -57,9 +55,6 @@ const setMaterial = createEvent<Material>();
 
 export const loadModelFx = createEffect(async (url: string) => {
     const { nodes, materials } = await loadGLTF(url);
-
-    console.log("nodes", nodes);
-    console.log("materials", materials);
 
     setGeometry(nodes["mesh_0"]);
     setMaterial(materials["material"]);
